@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Utils</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="clock-container">
+      <canvas id="analog-clock" width="200" height="200"></canvas>
+      <div id="digital-clock"></div>
+      <div id="time-zone"></div>
+    </div>
+    <div id="date-container">
+      <div id="current-date"></div>
+    </div>
+    <div id="timer-container">
+      <div id="timer-input-wrapper">
+        <input
+          type="number"
+          id="timer-input"
+          placeholder="Set timer (minutes)"
+        />
+        <button id="start-timer">Start Timer</button>
+      </div>
+      <div id="timer-countdown"></div>
+    </div>
+    <div id="party-popper" style="display: none">
+      <img src="assets/party_popper.gif" alt="Party Popper" />
+    </div>
+    <script src="analog_clock.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,43 +1,41 @@
-# clock-chrome-extention
+# Time Utils Chrome Extension
 
-<div style="text-align:center">
-    <img src="./128.png"/>
-</div>
+![Time Utils Logo](assets/clock_icon.png)
 
-**Extension Name: Analog & Digital Clock with Active Tab Info**
+Time Utils is a Chrome extension that provides an analog and digital clock with the current date and timezone information. It also includes a session timer to help you stay focused on your tasks. When the timer ends, you receive a notification along with a fun party poppers animation.
 
-**Description:**
-Enhance your browsing experience with the Analog & Digital Clock with Active Tab Info Chrome extension. This handy tool not only displays a stylish analog and digital clock but also provides real-time information about your active tab.
+## Features
 
-**Features:**
+- **Analog and Digital Clock**: Displays the current time in both analog and digital formats.
+- **Date and Timezone**: Shows today's date and your current timezone.
+- **Session Timer**: Set a timer to help you focus on your tasks. The timer runs in the background even if the extension popup is closed.
+- **Notifications**: Get notified when your timer session is complete with a festive party poppers animation.
 
-1. **Active Tab Information:**
+## Usage
 
-   - Automatically displays the ID of your current active tab.
-   - Simple and efficient script to query the active tab and inject the information into the extension's interface.
+1. Click on the Time Utils icon in the Chrome toolbar to open the extension popup.
+2. View the current time, date, and timezone information.
+3. Set a session timer by entering the desired duration in minutes and clicking "Start Timer".
+4. The timer will continue to run in the background even if you close the popup.
+5. When the timer ends, you will receive a notification, and a party popper animation will appear.
 
-2. **Analog Clock:**
+## Screenshots
 
-   - A visually appealing analog clock with smooth transitions.
-   - Hour, minute, and second hands rotate precisely to show the current time.
+![Clock Screenshot](assets/ss.png)
 
-3. **Digital Clock:**
-   - Displays the current time in a digital format.
-   - Shows hours, minutes, and seconds with a clear AM/PM indicator.
-   - Automatically converts the 24-hour format to a 12-hour format.
-   - Ensures leading zeros for single-digit hours, minutes, and seconds for a consistent display.
+## Contributing
 
-**How It Works:**
+I welcome contributions to improve this extension! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-- The extension queries the active tab and displays its ID directly within the extension interface.
-- The analog clock uses CSS transformations to rotate the hour, minute, and second hands accurately.
-- The digital clock updates every second, reflecting the current time and adjusting for AM/PM format.
+## License
 
-Stay informed and on time with this elegant and functional extension. Perfect for users who need quick access to time and tab information without leaving their current page.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-**Permissions:**
+## Credits
 
-- Access to active tabs to retrieve and display tab ID information.
-- Scripting capabilities to inject necessary scripts for displaying tab information.
+- Clock icon by [Bard](https://gemini.google.com/chat)
+- Party popper animation from [giphy](https://giphy.com/gifs/love-happy-confetti-m3Xk0dVHrQTiaKvRWA).
 
-Enjoy a seamless blend of functionality and style with the Analog & Digital Clock with Active Tab Info extension. Install now and elevate your browsing experience!
+---
+
+Thank you for using Time Utils! Stay focused and make the most of your time.

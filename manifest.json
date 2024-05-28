@@ -1,18 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Ananlog clock",
-  "version": "1.0.0",
-  "description": "A basic analog clock to check on the go",
+  "name": "Time Utils",
+  "version": "1.0",
+  "description": "Shows an analog and digital clock with today's date, and includes a session timer.",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/clock_icon.png",
+      "48": "assets/clock_icon.png",
+      "128": "assets/clock_icon.png"
+    }
   },
-  "icons": {
-    "128": "128.png"
-  },
+  "permissions": ["storage", "notifications", "background"],
   "background": {
-    "service_worker": "service-worker.js",
-    "type": "module"
-  },
-  "permissions": ["scripting"],
-  "host_permissions": ["http://*/*", "https://*/*"]
+    "service_worker": "background.js"
+  }
 }

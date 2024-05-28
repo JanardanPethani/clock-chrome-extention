@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  color: #333;
+}
+
+#clock-container {
+  margin-bottom: 20px;
+}
+
+#analog-clock {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+#digital-clock,
+#time-zone {
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#date-container {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#timer-container {
+  margin-bottom: 20px;
+}
+
+#timer-input-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+#timer-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#start-timer {
+  text-wrap: nowrap;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#start-timer:hover {
+  background-color: #45a049;
+}
+
+#timer-countdown {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#party-popper img {
+  width: 100px;
+  margin-top: 20px;
+}
