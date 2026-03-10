@@ -1,6 +1,8 @@
 # Time Utils Chrome Extension
 
-![Time Utils Logo](assets/clock_icon.png) - [chrome extentsion link](https://chromewebstore.google.com/detail/time-utils/mdmehkihncaoechbkoghbpdpopbhgopi)
+![Time Utils Logo](assets/clock_icon.png) 
+<br>
+[chrome extentsion link](https://chromewebstore.google.com/detail/time-utils/mdmehkihncaoechbkoghbpdpopbhgopi)
 
 Time Utils is a Chrome extension that provides an analog and digital clock with the current date and timezone information. It also includes a session timer to help you stay focused on your tasks. When the timer ends, you receive a notification along with a fun party poppers animation.
 
